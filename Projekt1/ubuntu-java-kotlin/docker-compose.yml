@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  kotlin-app:
+    image: ubuntu-java-kotlin
+    container_name: kotlin-hello
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: gradle run
