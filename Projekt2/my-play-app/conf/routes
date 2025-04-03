@@ -20,3 +20,8 @@ DELETE  /produkty/:id        controllers.ProductController.delete(id: Int)
 GET     /categories              controllers.CategoryController.getAllCategories
 POST    /categories              controllers.CategoryController.createCategory
 DELETE  /categories/:id          controllers.CategoryController.deleteCategory(id: Int)
+
+GET     /cart             controllers.CartController.getCart
+POST    /cart             controllers.CartController.addToCart
+DELETE  /cart/:id         controllers.CartController.removeFromCart(id: Int)
+DELETE  /cart             controllers.CartController.clearCart
