@@ -10,13 +10,13 @@ GET     /                           controllers.HomeController.index()
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
 GET     /produkty           controllers.ProductController.index
-
 GET   /produkty/json    controllers.ProductController.index
-
 GET     /produkty/:id       controllers.ProductController.details(id: Int)
-
 POST    /produkty            controllers.ProductController.create
-
 PUT     /produkty/:id        controllers.ProductController.update(id: Int)
-
 DELETE  /produkty/:id        controllers.ProductController.delete(id: Int)
+
+
+GET     /categories              controllers.CategoryController.getAllCategories
+POST    /categories              controllers.CategoryController.createCategory
+DELETE  /categories/:id          controllers.CategoryController.deleteCategory(id: Int)
