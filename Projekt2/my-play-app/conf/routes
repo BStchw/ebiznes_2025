@@ -10,7 +10,6 @@ GET     /                           controllers.HomeController.index()
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
 GET     /produkty           controllers.ProductController.index
-GET   /produkty/json    controllers.ProductController.index
 GET     /produkty/:id       controllers.ProductController.details(id: Int)
 POST    /produkty            controllers.ProductController.create
 PUT     /produkty/:id        controllers.ProductController.update(id: Int)
