@@ -1,3 +1,5 @@
+Commity są dość ogólnie przypisane do poszczególnych wymagań. Niektóre wymagania zawierają się w tych samych commitach.
+
 Zadanie 1 Docker
 
 ✅ 3.0 wymaganie 1 [Link do commita 1](https://github.com/BStchw/ebiznes_2025/commit/10a9073aca4795b69f52fdd89bbd92e00da31147)
