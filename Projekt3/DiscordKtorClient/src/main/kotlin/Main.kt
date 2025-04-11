@@ -71,7 +71,7 @@ fun main() = runBlocking {
         println("Wystąpil blad podczas wysylania wiadomosci: ${e.message}")
     }
 
-    val botToken = "YourTokenHere" // Wstaw tutaj swój token bota Discord
+    val botToken = "YourToken" // Wstaw tutaj swój token bota Discord
 
 
     launch {
