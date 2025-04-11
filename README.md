@@ -27,10 +27,10 @@ Zadanie 3 Kotlin
 
 ✅ 3.0 wymaganie 1 [Link do commita 1](https://github.com/BStchw/ebiznes_2025/commit/1121d027f78d3f66705f3d52a7e3f4c798079789)
 
-✅ 3.5 wymaganie  wymaganie 1 [Link do commita 1](https://github.com/BStchw/ebiznes_2025/commit/1121d027f78d3f66705f3d52a7e3f4c798079789)
+✅ 3.5 wymaganie 2 [Link do commita 1](https://github.com/BStchw/ebiznes_2025/commit/1121d027f78d3f66705f3d52a7e3f4c798079789)
 
-✅ 4.0 wymaganie 3  wymaganie 1 [Link do commita 1](https://github.com/BStchw/ebiznes_2025/commit/1121d027f78d3f66705f3d52a7e3f4c798079789)
+✅ 4.0 wymaganie 3 [Link do commita 1](https://github.com/BStchw/ebiznes_2025/commit/1121d027f78d3f66705f3d52a7e3f4c798079789)
 
-✅ 4.5 wymaganie 4  wymaganie 1 [Link do commita 1](https://github.com/BStchw/ebiznes_2025/commit/1121d027f78d3f66705f3d52a7e3f4c798079789)
+✅ 4.5 wymaganie 4 [Link do commita 1](https://github.com/BStchw/ebiznes_2025/commit/1121d027f78d3f66705f3d52a7e3f4c798079789)
 
 Kod: ([folder lub branch](https://github.com/BStchw/ebiznes_2025/tree/main/Projekt3))
