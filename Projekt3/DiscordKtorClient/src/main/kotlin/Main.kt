@@ -74,7 +74,6 @@ fun main() = runBlocking {
     val botToken = "YourTokenHere" // Wstaw tutaj swój token bota Discord
 
 
-
     launch {
         startBot(botToken)
     }.join()
