@@ -14,11 +14,12 @@ Kod: ([folder](https://github.com/BStchw/ebiznes_2025/tree/main/Projekt1))
 
 Zadanie 2 Scala
 
-✅ 3.0 wymaganie 1 [Link do commita 1](https://github.com/BStchw/ebiznes_2025/commit/0b9ab58e0d1994678ce0d31562bf5b80727d37c7)
+✅ 3.0 wymaganie 1 [Link do commita 1](https://github.com/BStchw/ebiznes_2025/commit/ca56fa4d10182081067d143ac45a02bb4a3bc227)
 
 ✅ 3.5 wymaganie 2 [Link do commita 1](https://github.com/BStchw/ebiznes_2025/commit/0b9ab58e0d1994678ce0d31562bf5b80727d37c7)
 
 ✅ 4.0 wymaganie 3 [Link do commita 2](https://github.com/BStchw/ebiznes_2025/commit/150dcba5f6f6bee18692f7fdf7ed3f5053a8b109)
+
 
 
 Kod: ([folder](https://github.com/BStchw/ebiznes_2025/tree/main/Projekt2))
