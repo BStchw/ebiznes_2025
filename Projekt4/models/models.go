@@ -33,3 +33,10 @@ type Review struct {
 	ProductID uint
 	Content   string
 }
+
+type Cart struct {
+	gorm.Model
+	UserID    uint
+	ProductID uint
+	Quantity  int
+}

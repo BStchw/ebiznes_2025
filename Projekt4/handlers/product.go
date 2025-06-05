@@ -57,3 +57,22 @@ func (h *Handler) DeleteProduct(c echo.Context) error {
 	}
 	return c.NoContent(http.StatusNoContent)
 }
+
+func AddToCart(db *gorm.DB) echo.HandlerFunc {
+	return func(c echo.Context) error {
+		var cart models.Cart
+		if err := c.Bind(&cart); err != nil {
+			return err
+		}
+		db.Create(&cart)
+		return c.JSON(http.StatusCreated, cart)
+	}
+}
+
+func GetCartItems(db *gorm.DB) echo.HandlerFunc {
+	return func(c echo.Context) error {
+		var cart []models.Cart
+		db.Find(&cart)
+		return c.JSON(http.StatusOK, cart)
+	}
+}

@@ -15,4 +15,7 @@ func SetupRoutes(e *echo.Echo, db *gorm.DB) {
 	p.GET("/:id", h.GetProduct)
 	p.PUT("/:id", h.UpdateProduct)
 	p.DELETE("/:id", h.DeleteProduct)
+
+	e.POST("/cart", handlers.AddToCart(db))
+	e.GET("/cart", handlers.GetCartItems(db))
 }
