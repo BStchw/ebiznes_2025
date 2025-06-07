@@ -23,6 +23,7 @@ func InitDB() *gorm.DB {
 		&models.Order{},
 		&models.Review{},
 		&models.Cart{},
+		&models.Payment{},
 	)
 	if err != nil {
 		fmt.Println("Błąd migracji:", err)

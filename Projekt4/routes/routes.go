@@ -18,4 +18,7 @@ func SetupRoutes(e *echo.Echo, db *gorm.DB) {
 
 	e.POST("/cart", handlers.AddToCart(db))
 	e.GET("/cart", handlers.GetCartItems(db))
+
+	e.POST("/payments", handlers.CreatePayment(db))
+	e.GET("/payments", handlers.GetPayments(db))
 }
