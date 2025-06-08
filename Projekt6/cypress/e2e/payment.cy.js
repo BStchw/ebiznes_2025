@@ -45,7 +45,7 @@ describe('Płatność - testy UI', () => {
             expect(text).to.include('Płatność wysłana');
         });
     });
-    
+
     it('Powinno umożliwić powrót z płatności do listy produktów', () => {
         cy.visit('/payment');
         cy.contains('Produkty').click();
