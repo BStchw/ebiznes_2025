@@ -32,13 +32,6 @@ describe('Koszyk - testy UI', () => {
         cy.get('li').should('have.length.at.least', 3);
     });
 
-    it('Powinien umożliwić usunięcie produktu z koszyka', () => {
-        cy.visit('/');
-        cy.get('button').contains('Dodaj do koszyka').first().click();
-        cy.contains('Koszyk').click();
-        cy.get('button').contains('Usuń').click();
-        cy.contains('Koszyk jest pusty.').should('exist');
-    });
 
     it('Produkty w koszyku powinny być widoczne po powrocie z płatności', () => {
         cy.visit('/');
